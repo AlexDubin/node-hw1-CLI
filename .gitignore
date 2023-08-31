@@ -1,0 +1,58 @@
+# Игнорировать временные файлы и папки
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Игнорировать файлы локализации
+*.localized
+
+# Игнорировать папки и файлы, созданные IDE и редакторами
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорировать кэши и временные файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+__pycache__/
+*.pyc
+
+# Игнорировать сгенерированные файлы
+node_modules/
+dist/
+build/
+out/
+
+# Игнорировать зависимости и файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Игнорировать настройки пользователя
+*.iml
+*.ipr
+*.iws
+
+# Игнорировать зависимости и папки пакетного менеджера
+.pnpm/
+.pnpm-debug.log*
+
+# Игнорировать файлы логов
+logs/
+*.log
+
+# Игнорировать файлы архивов
+*.zip
+*.tar.gz
+*.7z
+
+# Игнорировать файлы и директории Spotlight и macOS
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+__MACOSX/
